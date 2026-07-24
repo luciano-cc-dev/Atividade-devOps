@@ -16,3 +16,5 @@ O comando docker compose down remove apenas os containers e redes criados pela s
 Para testar a resiliência do pipeline, alteramos o caminho da aplicação no CMD do Dockerfile para src/indexx.js. O GitHub Actions identificou a falha no container durante a etapa de aguardar a aplicação responder, pois o cURL falhou sucessivamente. Identificamos o erro facilmente consultando a etapa de dump de logs do job na aba Actions.
 
 ## por que o app consegue chamar o host mysql sem saber o IP dele?
+
+## Explique, em uma frase, a diferença entre docker compose down e docker compose down -v.
