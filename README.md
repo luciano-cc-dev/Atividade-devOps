@@ -26,3 +26,5 @@ o sem o -v ele exclui o compose rodando sem excluir o volume e o com -v exclui o
 ## o que você quebrou, como o CI reagiu e como você descobriu o problema pelos logs.
 
 eu quebrei rota  do CMD no dockerfile adicinando mais x no indes.js ficando indexx.js
+
+tudinho
