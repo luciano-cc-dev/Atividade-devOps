@@ -17,4 +17,12 @@ Para testar a resiliência do pipeline, alteramos o caminho da aplicação no CM
 
 ## por que o app consegue chamar o host mysql sem saber o IP dele?
 
+por que é como se eles tivessem na mesma rua, no modo  bridge.
+
 ## Explique, em uma frase, a diferença entre docker compose down e docker compose down -v.
+
+o sem o -v ele exclui o compose rodando sem excluir o volume e o com -v exclui o volume junto com todo resto
+
+## o que você quebrou, como o CI reagiu e como você descobriu o problema pelos logs.
+
+eu quebrei rota  do CMD no dockerfile adicinando mais x no indes.js ficando indexx.js
